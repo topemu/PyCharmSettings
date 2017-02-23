@@ -1,0 +1,7 @@
+<templateSet group="Python">
+  <template name="test" value="def&#10;&#10;Ende" description="Test für XML File" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>

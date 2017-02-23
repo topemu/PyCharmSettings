@@ -1,0 +1,30 @@
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="Python 3.4.3 (C:\Program Files\Vector Fields\Opera 18R2 x64\code\bin\Python\python.exe)" />
+      <type value="Python SDK" />
+      <version value="Python 3.4.3" />
+      <homePath value="C:\Program Files\Vector Fields\Opera 18R2 x64\code\bin\Python\python.exe" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="file://C:/Program Files/Vector Fields/Opera 18R2 x64/code/bin/Python/Lib/site-packages/nose-1.3.4-py3.4.egg" />
+            <root type="simple" url="file://C:/Program Files/Vector Fields/Opera 18R2 x64/code/operapython" />
+            <root type="simple" url="file://C:/Program Files/Vector Fields/Opera 18R2 x64/code/bin/Python/DLLs" />
+            <root type="simple" url="file://C:/Program Files/Vector Fields/Opera 18R2 x64/code/bin/Python/Lib" />
+            <root type="simple" url="file://C:/Program Files/Vector Fields/Opera 18R2 x64/code/bin/Python" />
+            <root type="simple" url="file://C:/Program Files/Vector Fields/Opera 18R2 x64/code/bin/Python/Lib/site-packages" />
+            <root type="simple" url="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/-524979255" />
+            <root type="simple" url="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional>
+        <PATHS_REMOVED_BY_USER_ROOT PATH_REMOVED_BY_USER="file://D:/SSdetection/operapython" />
+      </additional>
+    </jdk>
+  </component>
+</application>
