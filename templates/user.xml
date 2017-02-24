@@ -111,13 +111,13 @@
   <template name="fnpdoc" value="Parameters&#10;----------&#10;&#10;&#10;Returns&#10;-------&#10;&#10;&#10;Raises&#10;------" description="Inserts Numpydoc params/returns for a function" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HAML" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="CSS" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="CoffeeScript" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="TypeScript" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="SQL" value="false" />
     </context>
   </template>
