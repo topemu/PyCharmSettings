@@ -4,10 +4,10 @@
     <variable name="object" expression="" defaultValue="&quot;object&quot;" alwaysStopAt="true" />
     <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="Django" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
       <option name="SQL" value="false" />
     </context>
@@ -18,10 +18,10 @@
     <variable name="cls_doc" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="Django" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
       <option name="SQL" value="false" />
     </context>
@@ -30,10 +30,10 @@
     <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="doc" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="Django" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
       <option name="SQL" value="false" />
     </context>
@@ -44,10 +44,10 @@
     <variable name="docstring" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="return_value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="Django" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
       <option name="SQL" value="false" />
     </context>
@@ -55,10 +55,10 @@
   <template name="se" value="self.$var$ = $var$&#10;$END$" description="set instance variable" toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="Django" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
       <option name="SQL" value="false" />
     </context>
@@ -67,10 +67,10 @@
     <variable name="module" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="Django" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
       <option name="SQL" value="false" />
     </context>
@@ -79,10 +79,10 @@
     <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="Django" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
       <option name="SQL" value="false" />
     </context>
@@ -90,82 +90,82 @@
   <template name="prop" value="$property$ = property(get_$property$, set_$property$)&#10;$END$" description="property" toReformat="false" toShortenFQNames="true">
     <variable name="property" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="Django" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
       <option name="SQL" value="false" />
     </context>
   </template>
   <template name="main" value="def main(argv):&#10;    if argv is None:&#10;        argv = sys.argv&#10;    $END$&#10;&#10;if __name__ == &quot;__main__&quot;:&#10;    main()" description="if __name__ == &quot;__main__&quot;:" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HAML" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="Django" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
       <option name="SQL" value="false" />
     </context>
   </template>
   <template name="fnpdoc" value="Parameters&#10;----------&#10;&#10;&#10;Returns&#10;-------&#10;&#10;&#10;Raises&#10;------" description="Inserts Numpydoc params/returns for a function" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HAML" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="TypeScript" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
     </context>
   </template>
   <template name="for" value="for $value$ in $object$:&#10;    $value$$END$" description="for" toReformat="true" toShortenFQNames="true">
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="CSS" value="false" />
       <option name="Django" value="false" />
-      <option name="SQL" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
+      <option name="SQL" value="false" />
     </context>
   </template>
   <template name="cnpdoc" value="Attributes&#10;----------&#10;&#10;&#10;Methods&#10;-------" description="Inserts Numpydoc attributes for a class" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="CSS" value="false" />
       <option name="Django" value="false" />
-      <option name="SQL" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
+      <option name="SQL" value="false" />
     </context>
   </template>
   <template name="map" value="map(lambda $value$: $END$, $object$)" description="map" toReformat="false" toShortenFQNames="true">
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="Django" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CoffeeScript" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="Django" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
       <option name="SQL" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
       <option name="TypeScript" value="false" />
     </context>
   </template>
   <template name="lam" value="lambda $args$: $END$ " description="definition lambda" toReformat="false" toShortenFQNames="true">
     <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="CSS" value="false" />
       <option name="Django" value="false" />
-      <option name="SQL" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
+      <option name="SQL" value="false" />
     </context>
   </template>
   <template name="defm" value="def $fnname$(self, $args$):&#10;    &quot;&quot;&quot;$docstring$&#10;    &#10;    Args:&#10;        $args$&#10;       &#10;    Returns:&#10;        $return_value$&#10;    &quot;&quot;&quot;&#10;    $END$" description="method definition" toReformat="false" toShortenFQNames="true">
@@ -174,10 +174,10 @@
     <variable name="docstring" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="return_value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="Django" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
       <option name="SQL" value="false" />
     </context>
@@ -186,22 +186,22 @@
     <variable name="func" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="CSS" value="false" />
       <option name="Django" value="false" />
-      <option name="SQL" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
+      <option name="SQL" value="false" />
     </context>
   </template>
   <template name="try" value="try:&#10;    $code$&#10;    $END$&#10;except $type$, e:&#10;    raise&#10;else:&#10;    pass&#10;finally:&#10;    pass" description="" toReformat="false" toShortenFQNames="true">
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="CSS" value="false" />
       <option name="Django" value="false" />
-      <option name="SQL" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
+      <option name="SQL" value="false" />
     </context>
   </template>
   <template name="file" value="$name$ = file(&quot;$path$&quot;, &quot;$type$&quot;)&#10;$END$&#10;$name$.close()" description="file open" toReformat="false" toShortenFQNames="true">
@@ -209,11 +209,11 @@
     <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="CSS" value="false" />
       <option name="Django" value="false" />
-      <option name="SQL" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
+      <option name="SQL" value="false" />
     </context>
   </template>
   <template name="ifelse" value="if $condition$:&#10;    $code$&#10;else:&#10;    $code1$" description="if-else construction" toReformat="false" toShortenFQNames="true">
@@ -221,11 +221,11 @@
     <variable name="code" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="code1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="CSS" value="false" />
       <option name="Django" value="false" />
-      <option name="SQL" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
+      <option name="SQL" value="false" />
     </context>
   </template>
   <template name="fromas" value="from $module$ import $name$ as $alias$&#10;$END$" description="from module import name as alias" toReformat="false" toShortenFQNames="true">
@@ -233,29 +233,29 @@
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="alias" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="CSS" value="false" />
       <option name="Django" value="false" />
-      <option name="SQL" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
+      <option name="SQL" value="false" />
     </context>
   </template>
   <template name="!env" value="#!/usr/bin/env python&#10;$END$" description="#!/usr/bin/env python" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HAML" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="Django" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
       <option name="SQL" value="false" />
     </context>
   </template>
   <template name="enc" value="# -*- coding: utf-8 -*-&#10;$END$" description="encoding header" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HAML" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="Django" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
       <option name="SQL" value="false" />
     </context>
@@ -264,10 +264,10 @@
     <variable name="fnname" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="Django" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
       <option name="SQL" value="false" />
     </context>
@@ -276,40 +276,40 @@
     <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="Django" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
       <option name="SQL" value="false" />
     </context>
   </template>
   <template name="pdb" value="import pdb; pdb.set_trace()$END$" description="import pdb" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HAML" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="Django" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
       <option name="SQL" value="false" />
     </context>
   </template>
   <template name="ipdb" value="import ipdb; ipdb.set_trace()$END$" description="import ipdb" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HAML" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="Django" value="true" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
       <option name="SQL" value="false" />
     </context>
   </template>
   <template name="testmod" value="if __name__ == '__main__':&#10;    import doctest&#10;    doctest.testmod()" description="Doctest test mode" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HAML" value="false" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
       <option name="Django" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
       <option name="Python" value="true" />
       <option name="SQL" value="false" />
     </context>
@@ -318,14 +318,14 @@
     <variable name="module" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HAML" value="false" />
-      <option name="OTHER" value="true" />
       <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="XML" value="false" />
-      <option name="SQL" value="false" />
-      <option name="JSON" value="false" />
+      <option name="HAML" value="false" />
       <option name="HTML" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SQL" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
   <template name="ttcomment" value="'''&#10;Thomatronik GmbH&#9;&#10;Brückenstr. 1&#9;    Tel.: +49 (0)8031 2175-0    www.thomatronik.de&#10;D-83022 Rosenheim&#9;Fax.: +49 (0)8031 2175-30   info@thomatronik.de&#10;&#10;Author:&#9;     $AUTHOR$  &lt;info@thomatronik.de&gt;&#10;Date:        $DATE$   &#10;&#10; Changes&#10; --------&#10; $DATE$: First Release&#10;&#10;Description:&#10;'''" description="Thomatronik Comment" toReformat="false" toShortenFQNames="true">
