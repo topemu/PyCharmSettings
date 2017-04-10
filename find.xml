@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '[Daimler] - ...\indexModSolver.py'" />
-    <option name="defaultScopeName" value="File '[Daimler] - ...\indexModSolver.py'" />
-    <option name="SEARCH_SCOPE" value="File '[Daimler] - ...\indexModSolver.py'" />
+    <option name="customScope" value="Open Files" />
+    <option name="defaultScopeName" value="Open Files" />
+    <option name="SEARCH_SCOPE" value="Open Files" />
   </component>
 </application>
